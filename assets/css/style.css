@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'NotoSanMyanmar';
+  src: url('../fonts/NotoSansMyanmarUI-Regular.ttf');
+}
+
+body {
+	font-family: 'NotoSanMyanmar';
+	background: #B71C1C;
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.page-title {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'NotoSanMyanmar';
+}
+
+.martyr-card-image {
+	width: 100%;
+	background-size: cover;
+	background-position: top center;
+}
+
+.martyr-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.martyr-card-image__name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
