@@ -5,20 +5,23 @@
 	<title>Martyrs's Biography</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<h1 class="page-title"><a href="index.html">ဗိုလ်ချုပ်အောင်ဆန်း နှင့် အာဇာနည်ကြီးများ၏ အတ္ထုပ္ပတ္တိ</a></h1>
-	<div class="mdl-grid martyrs-wrapper" id="martyr-app">
-		<div class="mdl-cell mdl-cell--2-col martyr-single" v-for="martyr in martyrs">
-			<a v-bind:href="martyr.link">
-				<div class="martyr-card-image mdl-card mdl-shadow--2dp" v-bind:style="{ backgroundImage: 'url(' + martyr.image + ')' }">
-				  <div class="mdl-card__title mdl-card--expand"></div>
-				  <div class="mdl-card__actions">
-				    <span class="martyr-card-image__name">{{ martyr.name }}</span>
-				  </div>
-				</div>	
-			</a>
+	<div class="mdl-layout__container">
+		<h1 class="page-title"><a href="index.html">ဗိုလ်ချုပ်အောင်ဆန်း နှင့် အာဇာနည်ကြီးများ၏ အတ္ထုပ္ပတ္တိ</a></h1>
+		<div class="mdl-grid martyrs-wrapper" id="martyr-app">
+			<div class="mdl-cell mdl-cell--2-col martyr-single" v-for="martyr in martyrs">
+				<a v-bind:href="martyr.link">
+					<div class="martyr-card-image mdl-card mdl-shadow--2dp" v-bind:style="{ backgroundImage: 'url(' + martyr.image + ')' }">
+					  <div class="mdl-card__title mdl-card--expand"></div>
+					  <div class="mdl-card__actions">
+					    <span class="martyr-card-image__name">{{ martyr.name }}</span>
+					  </div>
+					</div>	
+				</a>
+			</div>
 		</div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
