@@ -33,7 +33,7 @@ var app = new Vue({
         link : 'razak.html'
       },
       {
-        name : 'စဝ်စံထွန်း',
+        name : 'မိုင်းပွန်စော်ဘွား စဝ်စံထွန်း',
         image : 'assets/images/sao_san_tun.jpg',
         link : 'sao_san_tun.html'
       },
