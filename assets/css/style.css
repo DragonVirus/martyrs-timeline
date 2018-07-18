@@ -38,3 +38,13 @@ a {
   font-weight: 300;
   text-decoration: none;
 }
+
+.back-btn {
+	position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-btn .material-icons {
+	font-size: 50px;
+}
