@@ -10,42 +10,42 @@ var app = new Vue({
       {
         name : 'ဒီးဒုတ်ဦးဘချို',
         image : 'assets/images/UBaCho.jpg',
-        link : '#'
+        link : 'u_ba_cho.html'
       },
       {
         name : 'မန်းဘခိုင်',
         image : 'assets/images/mann_ba_khine.jpg',
-        link : '#'
+        link : 'mann_ba_khine.html'
       },
       {
         name : 'ဦးဘဝင်း',
         image : 'assets/images/u_ba_win.jpg',
-        link : '#'
+        link : 'u_ba_win.html'
       },
       {
         name : 'သခင်မြ',
         image : 'assets/images/thakhin_mya.jpg',
-        link : '#'
+        link : 'thakhin_mya.html'
       },
       {
         name : 'ဦးအဗ္ဗဒူရာဇတ်',
         image : 'assets/images/razak.jpg',
-        link : '#'
+        link : 'razak.html'
       },
       {
         name : 'စဝ်စံထွန်း',
         image : 'assets/images/sao_san_tun.jpg',
-        link : '#'
+        link : 'sao_san_tun.html'
       },
       {
         name : 'ဦးအုန်းမောင်',
         image : 'assets/images/ohn_maung.jpg',
-        link : '#'
+        link : 'ohn_maung.html'
       },
       {
         name : 'ရဲဘော် ကိုထွေး',
         image : 'assets/images/ko_htwe.jpg',
-        link : '#'
+        link : 'ko_htwe.html'
       }
     ]
   }
